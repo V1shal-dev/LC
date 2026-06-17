@@ -1,6 +1,15 @@
+import java.util.Scanner;
+
 public class armstrong{
     public static void main(String[] args){
-        int n = 153;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a Number: ");
+        int n = sc.nextInt();
+
+        sc.close();
+
         int original = n;
         int sum = 0;
         while(n > 0){
